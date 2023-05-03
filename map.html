@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ea9e7d090b3099e0e6dd57041a91072b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ea9e7d090b3099e0e6dd57041a91072b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ea9e7d090b3099e0e6dd57041a91072b = L.map(
+                "map_ea9e7d090b3099e0e6dd57041a91072b",
+                {
+                    center: [12.82317, 80.04523],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9c4d6edfeba46248bb5177c41a5a3c0b = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ea9e7d090b3099e0e6dd57041a91072b);
+        
+    
+            var circle_marker_37d50cf74cae1f173918c09375153adf = L.circleMarker(
+                [12.89833, 80.06366],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ea9e7d090b3099e0e6dd57041a91072b);
+        
+    
+        var popup_ab9eada0962e2b1f0dc1ee564e0d6240 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_9376b4bd35f31e4dd76d1de477aa5217 = $(`<div id="html_9376b4bd35f31e4dd76d1de477aa5217" style="width: 100.0%; height: 100.0%;">Goodland Inn Service Apartments</div>`)[0];
+                popup_ab9eada0962e2b1f0dc1ee564e0d6240.setContent(html_9376b4bd35f31e4dd76d1de477aa5217);
+            
+        
+
+        circle_marker_37d50cf74cae1f173918c09375153adf.bindPopup(popup_ab9eada0962e2b1f0dc1ee564e0d6240)
+        ;
+
+        
+    
+    
+            var circle_marker_cfc939247f5ad71e2cdfededb06ba2ff = L.circleMarker(
+                [12.95862, 80.1387],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ea9e7d090b3099e0e6dd57041a91072b);
+        
+    
+        var popup_58cab8702b9d7bc9f257cf6d1cce6d0e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ae296d86d721ef1d765104efb56a2373 = $(`<div id="html_ae296d86d721ef1d765104efb56a2373" style="width: 100.0%; height: 100.0%;">Stayeeasy Serviced Apartments</div>`)[0];
+                popup_58cab8702b9d7bc9f257cf6d1cce6d0e.setContent(html_ae296d86d721ef1d765104efb56a2373);
+            
+        
+
+        circle_marker_cfc939247f5ad71e2cdfededb06ba2ff.bindPopup(popup_58cab8702b9d7bc9f257cf6d1cce6d0e)
+        ;
+
+        
+    
+    
+            var circle_marker_f83f1d8a782accd9a3617c435caa6ebc = L.circleMarker(
+                [12.89974, 80.19403],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ea9e7d090b3099e0e6dd57041a91072b);
+        
+    
+        var popup_a36804502579bdb985ea3c7e6711f660 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_efc14a66542d4399ef49a7d9e46f857e = $(`<div id="html_efc14a66542d4399ef49a7d9e46f857e" style="width: 100.0%; height: 100.0%;">Atchuta Apartments</div>`)[0];
+                popup_a36804502579bdb985ea3c7e6711f660.setContent(html_efc14a66542d4399ef49a7d9e46f857e);
+            
+        
+
+        circle_marker_f83f1d8a782accd9a3617c435caa6ebc.bindPopup(popup_a36804502579bdb985ea3c7e6711f660)
+        ;
+
+        
+    
+    
+            var circle_marker_eec0f7babdc7e1224435442d923f6702 = L.circleMarker(
+                [12.77562, 80.2092],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ea9e7d090b3099e0e6dd57041a91072b);
+        
+    
+        var popup_3c3507452e9b7c393b6820a763dade4e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_fe86eea9b9ba8933cabbb19274ad3dc1 = $(`<div id="html_fe86eea9b9ba8933cabbb19274ad3dc1" style="width: 100.0%; height: 100.0%;">Galaxys Ocean Spring</div>`)[0];
+                popup_3c3507452e9b7c393b6820a763dade4e.setContent(html_fe86eea9b9ba8933cabbb19274ad3dc1);
+            
+        
+
+        circle_marker_eec0f7babdc7e1224435442d923f6702.bindPopup(popup_3c3507452e9b7c393b6820a763dade4e)
+        ;
+
+        
+    
+    
+            var circle_marker_88e2d6671d7fc9413b1a63830d3dee5d = L.circleMarker(
+                [12.91672, 80.19441],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ea9e7d090b3099e0e6dd57041a91072b);
+        
+    
+        var popup_ba0ea089edd52bf2d69eea1f6444a9d6 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_e71e4cff6e83a0bcd0b2df3b22a74e4f = $(`<div id="html_e71e4cff6e83a0bcd0b2df3b22a74e4f" style="width: 100.0%; height: 100.0%;">Frans Builders & Promoters</div>`)[0];
+                popup_ba0ea089edd52bf2d69eea1f6444a9d6.setContent(html_e71e4cff6e83a0bcd0b2df3b22a74e4f);
+            
+        
+
+        circle_marker_88e2d6671d7fc9413b1a63830d3dee5d.bindPopup(popup_ba0ea089edd52bf2d69eea1f6444a9d6)
+        ;
+
+        
+    
+    
+            var circle_marker_9199581b4b10aaa9276c8d365b6f4bbe = L.circleMarker(
+                [12.99136, 79.99828],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ea9e7d090b3099e0e6dd57041a91072b);
+        
+    
+        var popup_65d36404cc1542afc1130e4d7762eaa4 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_7afe077ab9b533f0f39908db748f4f12 = $(`<div id="html_7afe077ab9b533f0f39908db748f4f12" style="width: 100.0%; height: 100.0%;">Balaji Resorts</div>`)[0];
+                popup_65d36404cc1542afc1130e4d7762eaa4.setContent(html_7afe077ab9b533f0f39908db748f4f12);
+            
+        
+
+        circle_marker_9199581b4b10aaa9276c8d365b6f4bbe.bindPopup(popup_65d36404cc1542afc1130e4d7762eaa4)
+        ;
+
+        
+    
+    
+            var circle_marker_d97828f009fda7823de88208b27cd09a = L.circleMarker(
+                [12.64637, 80.03907],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ea9e7d090b3099e0e6dd57041a91072b);
+        
+    
+        var popup_bbb8f5c3ea686aeb1fc750a8e03b8d4d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a365567b71ab0d9a8851e6af08c6ac15 = $(`<div id="html_a365567b71ab0d9a8851e6af08c6ac15" style="width: 100.0%; height: 100.0%;">Saint Anthonyar Nagar</div>`)[0];
+                popup_bbb8f5c3ea686aeb1fc750a8e03b8d4d.setContent(html_a365567b71ab0d9a8851e6af08c6ac15);
+            
+        
+
+        circle_marker_d97828f009fda7823de88208b27cd09a.bindPopup(popup_bbb8f5c3ea686aeb1fc750a8e03b8d4d)
+        ;
+
+        
+    
+    
+            var circle_marker_5a45a83c97dc06855bd3e5310df7a953 = L.circleMarker(
+                [12.79853, 80.22706],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ea9e7d090b3099e0e6dd57041a91072b);
+        
+    
+        var popup_1b6edeb1dd85355e970b07790f000c11 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_03481caab55c6eeb30282e5aca4d9864 = $(`<div id="html_03481caab55c6eeb30282e5aca4d9864" style="width: 100.0%; height: 100.0%;">XS Real Siena</div>`)[0];
+                popup_1b6edeb1dd85355e970b07790f000c11.setContent(html_03481caab55c6eeb30282e5aca4d9864);
+            
+        
+
+        circle_marker_5a45a83c97dc06855bd3e5310df7a953.bindPopup(popup_1b6edeb1dd85355e970b07790f000c11)
+        ;
+
+        
+    
+    
+            var feature_group_504ad7ab51567cae6f3b100ece976b08 = L.featureGroup(
+                {}
+            ).addTo(map_ea9e7d090b3099e0e6dd57041a91072b);
+        
+    
+            var marker_e4ce91081a810d131392259105ef1ba2 = L.marker(
+                [12.82317, 80.04523],
+                {}
+            ).addTo(map_ea9e7d090b3099e0e6dd57041a91072b);
+        
+    
+        var popup_c93bb0e3cbffe3898aabbc21e2414431 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17f03a897d92c84d0b45fb8e9aee32c0 = $(`<div id="html_17f03a897d92c84d0b45fb8e9aee32c0" style="width: 100.0%; height: 100.0%;">SRMIST</div>`)[0];
+                popup_c93bb0e3cbffe3898aabbc21e2414431.setContent(html_17f03a897d92c84d0b45fb8e9aee32c0);
+            
+        
+
+        marker_e4ce91081a810d131392259105ef1ba2.bindPopup(popup_c93bb0e3cbffe3898aabbc21e2414431)
+        ;
+
+        
+    
+</script>
+</html>
